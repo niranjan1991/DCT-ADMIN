@@ -1,0 +1,260 @@
+<div class="col-md-1 nopadding sticky-container" #sideNavBar>
+  <div class="col-md-12 logo-section">
+    <img src="assets/img/logo-2.png" alt="company logo" class="img-responsive custom-logo" />
+  </div><!-- col-md-12-->
+  <div class="clearfix"></div>
+  <div class="col-md-12 nopadding">
+    <div class="sidebar-nav">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Menu</span>
+        </div>
+        <div class="navbar-collapse sidebar-navbar-collapse pd-nv-0 custom-hide">
+          <ul class="nav navbar-nav nav-pd-wd">
+
+            <li>
+              <a [routerLink]="['/dashboard']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/dashboard.svg" class="img-responsive" />
+                      DASHBOARD
+                    </div>
+                  </div>>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/create']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <span class="glyphicon glyphicon-plus"></span>
+                      <div class="clearfix"></div>
+                      CREATE EVENT
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <!-- <li class="has-submenu" #hasMenu>
+              <a>
+                <span class="nav-pad">
+                  <span class="glyphicon glyphicon-plus"></span>
+                  <div class="clearfix"></div>
+                  CREATE EVENT
+                </span>
+                <ul class="submenu">
+                  <li [routerLink]="['/create']" [routerLinkActive]="['router-link-active']">menu 1</li>
+                  <li [routerLink]="['/create']" [routerLinkActive]="['router-link-active']">menu 2</li>
+                </ul>
+              </a>
+            </li> -->
+
+            <!-- <li class="has-submenu" #hasMenu>
+              <a [routerLink]="['/create']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <span class="glyphicon glyphicon-plus"></span>
+                  <div class="clearfix"></div>
+                  CREATE EVENT
+                </span>
+                <ul class="submenu">
+                  <li>menu 1</li>
+                  <li>menu 2</li>
+                </ul>
+              </a>
+            </li> -->
+
+            <!-- <li class="has-submenu" #hasMenu>
+              <a [routerLink]="['/create']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <span class="glyphicon glyphicon-plus"></span>
+                  <div class="clearfix"></div>
+                  CREATE EVENT
+                </span>
+                <ul class="submenu">
+                  <li>menu 1</li>
+                  <li>menu 2</li>
+                </ul>
+              </a>
+            </li> -->
+
+            <li class="has-submenu" #hasMenu>
+              <a [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/calendar.svg" class="img-responsive" />
+                      MY EVENTS
+                    </div>
+                  </div>
+                </span>
+                <ul class="submenu">
+                  <li [routerLink]="['/event-details']">List View</li>
+                  <li [routerLink]="['/calender']">Calender View</li>
+                </ul>
+              </a>
+            </li>
+
+            <li class="has-submenu" #hasMenu>
+              <a [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/slides.svg" class="img-responsive" />
+                      SPEAKER
+                    </div>
+                  </div>
+                </span>
+                <ul class="submenu">
+                  <li [routerLink]="['/search-speaker']">Search Speaker</li>
+                  <li [routerLink]="['/speaker']">Add Speaker</li>
+                </ul>
+              </a>
+            </li>
+
+            <li class="has-submenu" #hasMenu>
+              <a [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/training.svg" class="img-responsive" />
+                      TRAINING
+                    </div>
+                  </div>
+                </span>
+                <ul class="submenu training-submenu">
+                  <li [routerLink]="['/training']">Upload Training Deck</li>
+                  <li [routerLink]="['/initiatetraining']">Initiate Training</li>
+                </ul>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/upload-reference']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/training.svg" class="img-responsive" />
+                      REFERENCE MATERIALS
+                    </div>
+                  </div>
+
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/speaker-content']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/training.svg" class="img-responsive" />
+                      MANAGE SPEAKER CONTENT
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li class="has-submenu" #hasMenu>
+              <a [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <span class="glyphicon glyphicon-map-marker"></span>
+                      <div class="clearfix"></div>
+                      VENUE
+                    </div>
+                  </div>
+                </span>
+                <ul class="submenu">
+                    <div class="parent-wrapper">
+                        <div class="child-wrapper">
+                  <li [routerLink]="['/venue-listing']">Venue Listing</li>
+                  <li [routerLink]="['/add-venue']">Add Venue</li>
+                  </div>
+                  </div>
+                </ul>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/attendee-list']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <span class="glyphicon glyphicon-list"></span>
+                      <div class="clearfix"></div>
+                      ATTENDEE LIST
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/reports']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <span class="glyphicon glyphicon-stats"></span>
+                      <div class="clearfix"></div>
+                      REPORTS
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/reconcile-speaker-program']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <span class="glyphicon glyphicon-stats"></span>
+                      <div class="clearfix"></div>
+                      RECONCILE EXPENSE
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+            <li>
+              <a [routerLink]="['/myprofile']" [routerLinkActive]="['router-link-active']">
+                <span class="nav-pad">
+                  <div class="parent-wrapper">
+                    <div class="child-wrapper">
+                      <img src="assets/icons/profile.svg" class="img-responsive" />
+                      MY PROFILE
+                    </div>
+                  </div>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div><!-- navbar -->
+    </div><!-- sidebar-nav -->
+  </div><!-- col-md-12 -->
+  <div class="clearfix"></div>
+</div>
+<div class="col-md-1"></div><!-- col-md-2 -->
+
+<div class="col-md-11 nopadding" #mainContainer>
+  <app-header></app-header>
+  <div class="col-md-12 main-container">
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer></app-footer>
+</div>

@@ -1,0 +1,110 @@
+.training-admin-wrapper mat-card{
+    padding: 38px 44px 0px 45px; 
+    margin-top: 25px;
+    margin-bottom: 70px;
+    box-shadow: 0 6px 24px 0 #E2E9F7;
+}
+.training-admin-wrapper mat-card hr{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.sub-link{
+    margin-top: 25px;
+}
+.clr-blue{
+    color: #2B62CA !important;
+}
+.icon-panel{
+    font-size: 15px;	font-weight: 500;	line-height: 18px;
+    color: #2B62CA;
+}
+.icon-panel img{
+    margin-right: 8px;
+} 
+.nopadding{
+    padding: 0px;
+}
+
+.AD-form-training .btn.btn-blue{
+    margin-top: 17px;
+}
+.AD-form-training .btn.btn-white{
+    margin-top: 5px;
+}
+.btn-blue{
+    height: 55px;	width: 180px;	border-radius: 4px;	background-color: #2B62CA;
+    color: #FFFFFF;		font-size: 18px;	font-weight: 500;	line-height: 23px;	text-align: center;
+}
+.btn-white{
+    height: 55px;	width: 180px;	border: 1px solid #2B62CA;	border-radius: 4px;	background-color: #FFFFFF; 
+    color: #2B62CA;		font-size: 18px;	font-weight: 500;	line-height: 23px;	text-align: center;
+}
+.training-admin-wrapper .form-control{
+	height: 38px; border: 1px solid #CECECE;	border-radius: 4px; margin-bottom: 30px;
+}
+.form-group label{
+    margin-bottom: 6px;
+    	font-size: 14px;	line-height: 16px; color: #757575;
+}
+.master-heading{
+    font-size: 28px;
+    color: #2B62CA;
+    font-weight: bold;
+}
+.para-heading{   
+    color: #2B62CA; margin-bottom: 25px;		font-size: 20px;	line-height: 22px;
+}
+.upload-popup-parent .daliog-master-heading{ 
+    color: #2B62CA;		font-size: 28px;	font-weight: bold;	line-height: 34px;	text-align: center;
+    margin-bottom: 35px;
+}
+.file-info{
+    height: 38px; border: 1px solid #CECECE;	border-radius: 4px;
+    color: #4F4F4F;		font-size: 16px;	line-height: 22px;
+    padding: 8px;
+    margin-bottom: 10px;
+} 
+.file-info.mr-b-0{
+    margin-bottom: 0px;
+}
+.file-info img{
+    margin-top: -5px;
+}
+.choose-btn{
+    margin-top: 17px;
+    margin-bottom: 60px;
+}
+.close-position{
+    position: absolute;
+    right: -36px;
+    top: -34px;
+    z-index: 99;
+    cursor: pointer;
+}
+.upLodedContent{
+    margin-bottom: 20px;
+}
+.upLodedContent i{
+    color: #4F4F4F;		font-size: 14px;	font-style: italic;	line-height: 30px;	text-align: right;
+}
+.upLodedContent img{
+    margin-left: 16px
+}
+.close-position{
+    position: absolute;
+    right: -36px;
+    top: -34px;
+    z-index: 99;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .training-admin-wrapper mat-card{
+        padding: 15px; 
+        margin: 20px 0px;
+    }
+    .AD-form-training .text-right{
+        text-align: center !important;
+    }
+}

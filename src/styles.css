@@ -1,0 +1,787 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+/* Change in Mat-form-fields component Start */
+mat-card .form-group{
+  margin-bottom: 30px;
+}
+.mat-elevation-z8 {
+  box-shadow: none;
+}
+.mat-form-field-ripple{
+  display: none !important;
+}
+.assign-content-wrapper .mat-checkbox-inner-container{
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.assign-content-wrapper .mat-checkbox-label{
+ color: #4F4F4F;		font-size: 16px;	line-height: 18px; 
+} 
+.assign-content-wrapper .mat-checkbox-layout{
+  margin-bottom: 10px;
+}
+.cdk-text-field-autofill-monitored:not(:-webkit-autofill){
+  height: 38px;
+  margin-top: -5px;
+}
+
+.mat-select-value {
+  display: table-cell;
+  max-width: 0;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 6px 10px;
+}
+.mat-form-field-infix{
+  width: 100%;
+  height: 38px;
+  padding: 5px 11px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  }
+  .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 0px;
+  }
+  .mat-dialog-container { 
+    width: 570px !important;	border-radius: 8px !important;	background-color: #FFFFFF;	box-shadow: 0 6px 24px 0 rgba(0,0,0,0.38);
+    padding: 53px !important;
+  }
+  .custom-text-area .mat-form-field-wrapper .mat-form-field-infix{
+    height: 122px;
+  }
+  .custom-text-area .mat-form-field-wrapper .cdk-text-field-autofill-monitored:not(:-webkit-autofill){
+    height: 122px;
+  }
+
+/* Change in Mat-form-fields component End */
+
+.row.custome-row{
+  margin-left: -60px;
+  margin-right: -59px;
+} 
+.AD-training-material-wrapper .odd-content-panel{
+  opacity: 0.8;
+  background-color: #D8D8D8;
+  padding-top: 26px;
+  padding-bottom: 30px;
+  padding-left: 65px;
+  padding-right: 40px;
+}
+.AD-training-material-wrapper .even-content-panel{
+   background-color:white;
+   padding-top: 26px;
+   padding-bottom: 30px;
+   padding-left: 65px;
+   padding-right: 40px;
+}
+
+.AD-training-material-wrapper .even-content-panel ul,
+.AD-training-material-wrapper .odd-content-panel ul{
+  list-style-type: none;
+  padding-left: 0px; 
+}
+.AD-training-material-wrapper .even-content-panel ul li,
+.AD-training-material-wrapper .odd-content-panel ul li{
+  font-size: 16px;	line-height: 22px; 
+  margin-bottom: 6px;
+}
+
+
+body, html{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px !important;
+}
+.nopadding {
+    padding: 0px;
+  }
+
+.mat-tab-label-container .mat-tab-list .mat-tab-labels {
+    display: flex;
+    float: right;
+    margin-right: 175px;
+} 
+.mat-tab-body-content {
+  height: 100%;
+  overflow: auto;
+  float: left;
+  width: 100%; 
+  padding: 15px;
+}
+.mat-tab-body-wrapper .mat-tab-body-content{
+  padding: 15px 0px;
+}
+mat-card{
+  float: left;
+  width: 100%;
+} 
+hr {
+ float: left;
+ width: 100%;
+ margin-bottom: 15px;
+ margin-top: 15px;
+}
+.mat-stepper-horizontal, .mat-stepper-vertical {
+  background-color: transparent;
+} 
+.mat-horizontal-stepper-header-container {
+   background: white;
+} 
+.mat-stepper-horizontal-line {
+  border-top-width: 3px !important; 
+  border-color: #757575 !important;
+} 
+.mat-horizontal-stepper-header { 
+  width: 125px;
+  text-align: center; 
+  height: 125px !important; 
+  padding: 0 49px !important;
+}
+.mat-horizontal-content-container{
+  padding: 0px !important; 
+}
+.mat-form-field-infix{
+  width: 100% !important; 
+  border-top: 0px; 
+  border: 1px solid #CECECE;
+} 
+.mat-horizontal-stepper-header-container{
+  border-radius: 8px !important; 
+}
+
+ 
+.mtp-15{
+  margin-top: 15px;
+} 
+.nopadding{
+  padding: 0px;
+} 
+.mrtp{
+  margin-top: 20px;
+} 
+.fc-view, .fc-view>table { 
+  background: #fff;
+}
+.btn-dialog-position{
+position: absolute;
+top: 6px;
+z-index: 99;
+right: 15px;
+border: 0px solid;
+height: 35px;
+width: 14%;
+background-color: #2b62ca;
+color: white;
+}
+.events-btn-position{
+  position: absolute;
+  top: 15px;
+  z-index: 99;
+  left: 15px;
+}
+ 
+.mat-tab-label .mat-tab-label-content{
+  border: 0px solid;
+  padding: 12px;
+  height: 32px;
+  box-shadow: 0px 0px 1px 1px;
+  background-color: #f7faff;
+  color: #2B62CA;
+}
+.fc-right{
+  display: none; 
+}
+.fc-day-grid-event .fc-content{
+  background: #000;
+  border: 1px solid #000;
+}
+ 
+.mat-step-icon-state-number.mat-step-icon.mat-step-icon-selected{
+  background-color: white;
+  color: #1873d4;
+  border: 2px solid #1873d4; 
+}
+.mat-step-header .mat-step-icon {
+    background-color: #fff;
+    color: rgba(0,0,0,.54);
+    border: 2px solid rgba(0,0,0,.54);
+    margin-right: auto !important;
+    margin: auto;
+    margin-top: 29px;
+}
+.mat-form-field{
+  width: 100%;
+}
+/* .mat-step-icon .mat-icon{
+  display: none;
+} */
+
+.mat-checkbox-layout .mat-checkbox-label {
+  line-height: 24px;
+  font-weight: normal;
+}
+.mat-radio-button {
+  display: inline-block;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  margin-right: 15px; 
+}
+.text-right mat-button:first-child{
+  margin-right: 10px
+}
+.second-wrap.mat-card .mat-radio-label-content{
+  font-weight: normal;
+}
+.mat-radio-label-content{
+  padding-left: 5px !important;
+  padding-right: 8px !important;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #1873d4;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple{
+  background-color: #1873d4;
+} 
+.mat-input-flex.mat-form-field-flex{
+  border: 1px solid #cecece;
+}
+.mat-input-underline.mat-form-field-underline {
+  background: green;
+}
+.mat-radio-outer-circle{
+  border-width:1px !important;
+  height: 18px !important;
+  width:18px !important;
+}
+.mat-radio-inner-circle { 
+  height: 18px !important; 
+  top: 0px !important; 
+  width: 18px !important; 
+}
+ .mat-checkbox-frame { 
+  border-color: lightgrey;
+  border-width: 1px !important;
+}
+.mat-checkbox:not(.mat-checkbox-disabled).mat-accent .mat-checkbox-ripple .mat-ripple-element {
+  background-color: blue;
+}
+.mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+  background-color: #1873d4;
+}
+.mat-step-label{
+  position: absolute;
+  bottom: 25px;
+  margin: auto;
+  left: 0px;
+  right: 0px;
+  font-size: 16px !important; 
+}
+.mat-icon.material-icons.ng-star-inserted::before {
+  content: 'check';
+  color: #fff;
+  position: relative;
+  left: 15px;
+  font-weight: bold;
+}
+.mat-icon.material-icons.ng-star-inserted {
+  color: green;
+  position: relative;  
+    left: -7px;
+    top: 10px;
+}
+.mat-step-icon .mat-icon {
+  font-size: 17px;
+  height: 17px;
+  width: 17px;
+}
+.mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit{
+  border-color: green;
+}
+.mat-step-icon{
+  height: 43px !important;
+  width:43px !important;
+}
+.mat-stepper-horizontal-line{
+  height: 30px !important;
+  margin: 0 -90px !important;
+}
+.mat-step-label-selected{
+  color: #1873d4 !important;
+  font-weight: 600;
+}
+.mat-form-field-label-wrapper{
+  font-size: 15px;
+}
+.mat-form-field-label{
+  padding-left: 9px;
+}
+.mat-form-field.mat-focused .mat-form-field-label{
+  color: rgba(0,0,0,.87);
+}
+.mat-form-field-appearance-legacy .mat-form-field-label{
+  color: rgba(0,0,0,.87);
+}
+.mat-input-element{
+  padding-left: 10px !important;
+}
+.mat-form-field-appearance-legacy .mat-form-field-underline{
+  height: 0px !important;
+}
+
+.mat-icon.material-icons.ng-star-inserted::before { 
+  color: green !important; 
+}
+.mat-column-TH {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-S {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-M {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-T {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-W {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-TH {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-F {
+  max-width: 10px;
+  min-width: 10px;
+}
+.mat-column-SA {
+  max-width: 10px;
+  min-width: 10px;
+}
+tr.mat-header-row {
+  height: 47px !important;
+}
+.mat-checkbox-layout{
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+.right-form-wrap .mat-radio-label,
+.second-wrap.venue-wrapper .rw-pt-mar .mat-radio-label{
+  margin-bottom: 10px;
+} 
+.btn-close.pull-right{ 
+  position: absolute;
+  right: -35px;
+  top: -35px;
+}
+
+
+/* .mat-step-icon .mat-icon, .mat-step-icon-content{
+  font-size: 23px !important;
+} */
+@media only screen and (max-width: 800px) {
+  .row.custome-row {
+      margin-left: -30px;
+      margin-right: -30px;
+  }
+  .AD-training-material-wrapper .even-content-panel,
+  .AD-training-material-wrapper .odd-content-panel{
+    padding: 25px;
+  }
+  .mat-horizontal-stepper-header-container{
+      white-space: nowrap; 
+      align-items: center; 
+      display: inline-flex !important;
+      width: 100%;
+  }
+  .mat-horizontal-stepper-header{
+    padding: 0px !important;
+  }
+  .mat-step-icon {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .mat-step-label { 
+    font-size: 12px;
+  }
+  mat-horizontal-stepper{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .cust-mat-table{
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
+
+
+/*****************- Akshay css starts -******************/
+
+.mat-btn-primary{
+  color: var(--app-color-primary);
+}
+
+.speaker-expense-edit-form mat-dialog-container {
+  width: 100% !important;
+}
+
+.rsp-form .form-group, .speaker-expense-edit-form mat-dialog-container .rsp-form .form-group label{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 6px;
+  font-weight: 300 !important;
+  font-size: 13px;
+}
+
+.cust-mat-table{
+  padding: 10px;
+}
+.cust-mat-table hr{
+  margin: 0px !important;
+}
+.cust-mat-table table{
+  margin-top: 0px !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.cust-mat-table h3{
+    font-size: 18px;
+    padding: 0px 15px;
+    color: #000;
+    font-weight: bold;
+}
+.cust-mat-table table th{
+    border-right: none !important;
+    text-align: left !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.cust-mat-table table th span, .cust-mat-table table td span{
+  padding: 0px 15px;
+  display: block;
+}
+.cust-mat-table table tr{
+    margin: 0px 30px;
+    height: 47px !important;
+    padding: 0px 25px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.cust-mat-table table tr td button{
+    margin: 0px;
+    text-align: center;
+    display: block;
+}
+.cust-mat-table table tr td.final-td{
+    background: #00CBFF;
+    color: #2B62CA;
+}
+
+.cust-mat-table table tr td.final-td.border-radius-left{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.cust-mat-table table tr td.final-td.border-radius-right{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cust-mat-table .table tr td .cdk-text-field-autofill-monitored:not(:-webkit-autofill) {
+  font-size: 16px;
+}
+
+.cust-mat-table table tr td.final-td div.text-value{
+  padding: 0px 10px;
+}
+.cust-mat-table .table-title h3{
+  font-size: 22px !important;
+  color: #2B62CA !important;
+  font-weight: normal !important;
+} 
+
+.no-data{
+  padding: 15px 25px;
+}
+
+.cust-mat-table.no-border table tr,.cust-mat-table.no-border table tr th, .cust-mat-table.no-border table tr td{
+  border: none !important;
+}
+.cust-mat-table.no-border table tr td{
+  text-align: left !important;
+  font-size: 18px;
+  padding: 0px 15px;
+}
+
+.upload-files-modal{
+  width: 35%;
+}
+
+.cust-modal .cust-modal-title{
+  margin-bottom: 20px;
+}
+
+.cust-modal .cust-modal-title h3{
+    padding: 0px;
+    margin: 0px;
+    color: #2B62CA;
+    font-weight: bold;
+}
+
+.cust-modal .cust-modal-content{
+  box-shadow: none;
+  border: none;
+}
+
+.cust-modal .cust-modal-content .controls{
+  margin-bottom: 20px;
+}
+
+.cust-modal .cust-modal-content label{
+    color: #757575;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.mat-icon.material-icons.ng-star-inserted {
+  color: green;
+  position: relative;
+  left: -15px;
+}
+@media only screen and (max-width: 425px) {
+  .header-text-style {
+    line-height: 35px;
+  }
+  .cust-mat-table{
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  .upload-files-modal {
+    width: 100% !important;
+  }
+
+  .cust-modal .cust-modal-title h3 {
+    text-align: left !important;
+  }
+  .mat-stepper-horizontal-line {
+    height: 46px !important;
+    margin: 0 -45px !important;
+  }
+}
+
+ul.submenu {
+  width: auto;
+  position: absolute;
+  display: block;
+  z-index: -1;
+  background: #70CDFF;
+  padding: 17px;
+  margin: 0px;
+  top: 0px;
+  right: 0;
+  transition: right .3s;
+  height: 100%;
+}
+
+li.has-submenu {
+  position: relative;
+}
+li.has-submenu:hover .submenu {
+  z-index: 1;
+  right: -7.99em;
+  box-shadow: 5px 2px 5px #0000001f;
+}
+
+.submenu li{
+  list-style: none;
+  color: #1B3D7D;
+  font-weight: var(--font-bold);
+  padding-bottom: 8px;
+}
+li.has-submenu:hover .training-submenu{
+  right: -11.49em;
+}
+
+.view-audit-modal mat-dialog-container{
+  width:100% !important;
+}
+
+.cust-modal .cust-modal-content ul{
+  list-style: none !important;
+}
+
+.view-audit-modal::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.view-audit-modal::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+.view-audit-modal::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.view-audit-modal::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.title-row{
+  padding: 15px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.title-row h3{
+  font-size: 16px;
+  font-weight: 600;
+  color: darkslategrey;
+  margin: 0px;
+}
+
+.cust-modal .cust-modal-content .AD-training-material-wrapper .even-content-panel {
+  padding-top: 16px !important;
+  padding-bottom: 0px !important;
+}
+
+.cust-modal .cust-modal-content .AD-training-material-wrapper .odd-content-panel {
+  padding-top: 16px !important;
+  padding-bottom: 0px !important;
+}
+.pagination-btn-row{
+  text-align: center;
+  margin-top: 15px;
+}
+.pagination-btn-row .page-number{
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    margin-left: 15px;
+    height: 55px;
+    width: auto;
+    padding: 18px !important;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.pagination-btn-row .page-number.active{
+  border: 1px solid #1873d4 !important;
+}
+.view-details-custom{
+    background-color: #FFF;
+    border: 1px solid #1873d4 !important;
+    margin-left: 15px;
+    height: 55px;
+    width: 180px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #1873d4;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+label.small{
+  font-weight: 300;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+.travel-info-modal mat-dialog-container {
+  width: 100% !important;
+}
+
+.hotel-info-modal mat-dialog-container {
+  width: 100% !important;
+}
+
+.btn-close{
+  background: transparent;
+  border:none;
+  outline: none;
+}
+
+.add-attendee-modal mat-dialog-container {
+  width: 100% !important;
+}
+
+.add-attendee-modal{
+  position: relative !important;
+  overflow-y: scroll;
+}
+
+.add-attendee-modal::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.add-attendee-modal::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+.add-attendee-modal::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.add-attendee-modal::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+.add-attendee-form h4 {
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.add-attendee-form p {
+  color: #636363;
+  margin: 20px 0px;
+}
+.add-attendee-form mat-radio-button {
+  margin: 0px;
+}
+
+@media (max-width: 767px)
+{
+  .primary-custom {
+    margin-left: 0px !important;
+  }
+  .add-attendee-modal mat-dialog-container {
+    padding: 25px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait)
+{
+  
+  
+}
+
+@media screen and (min-width: 1400px) {
+ 
+}
+@media screen and (min-width: 1600px) {
+  
+}
+@media screen and (min-width: 1900px) {
+  
+}
+@media screen and (min-width: 2100px) {
+  
+}

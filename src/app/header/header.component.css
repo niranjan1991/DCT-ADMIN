@@ -1,0 +1,117 @@
+.header-section{
+    padding: 39px;
+}
+.header-text{
+    height: 42px;
+    width: 627px;
+    color: #1D232F;
+    font-size: 36px;
+    line-height: 43px; 
+    margin-bottom: 0px; 
+    margin-top: 0px;
+}   
+.header-routing-panel p{
+    margin-bottom: 0px;
+    height: 17px;	
+    width: 371px;	
+    color: #2B62CA;	 	
+    font-size: 14px;	
+    font-weight: bold;	
+    letter-spacing: 1.27px;	
+    line-height: 17px;
+} 
+.clr-blue{
+    color: #1873d4;
+    font-weight: 600;
+}
+.header-text-right .glyphicon.glyphicon-user{
+    margin-left: 10px; 
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 4px;
+    background: aliceblue;
+}
+.header-text-right span{
+    margin-top: 7px; 
+    padding-left: 10px;
+    font-size: 16px;
+}
+.sub-header{
+    background: #dee1e8;
+    color: #333; 
+    padding: 0px 30px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+.sub-header ul{
+    padding-left: 0px; 
+    list-style-type: none; 
+    margin-bottom: 0px;
+}
+.sub-header ul li{
+    width:20%;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.btn-primary {
+    color: #fff;
+    background-color: white; 
+     border-color: white;
+}
+ .btn-primary:active:focus, 
+.btn-primary:active:hover{
+    background-color: white; 
+     border-color: white;
+}
+.position-drop{
+    transform: translate3d(73px, 54px, 0px) !important;
+    top: -100px !important;
+    width: 281px;
+    height: auto;
+    border: 0px solid;
+    right: 100px;
+}
+.dropdown-menu {
+    padding: 51px 69px;
+    text-align: right;
+}
+.mr-40{
+    /* margin-bottom: 40px; */
+    margin-top: 40px;
+}
+.header-section .position-drop img{
+    padding-left: 24px;
+}
+.header-section .position-drop a{
+    cursor: pointer;
+    padding: 3px 6px;
+}
+.nopadding-left{
+    padding-left: 0px !important;
+}
+.right-panel-links{
+    width: 300px;
+    position: relative;
+    float: right;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .header-section  { 
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+   .header-section.custom-header{
+        display: none;
+    }
+    .navbar-nav{
+        margin: 0px;
+    }
+    
+}

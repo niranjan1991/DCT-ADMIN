@@ -1,0 +1,1331 @@
+<mat-horizontal-stepper #stepper>
+    <ng-template matStepperIcon="edit">
+        <mat-icon>done</mat-icon>
+    </ng-template>
+
+    <mat-step>
+        <mat-card class="first-wrap line-height mat-card-sd">
+            <ng-template matStepLabel>Attendees</ng-template>
+            <div class="col-md-12"><span class="header-text-style">Event Information</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>ID</b>: 2858</li>
+                <li><b>Product</b>: Neuroscience-MG</li>
+                <li><b>Program Date</b>: 9/26/2019</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Program Type</b>: Live</li>
+                <li><b>Speaker</b>: Juan Alejos</li>
+                <!-- <li><b>Territory</b>: TM - Austin, TX</li> -->
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Venue</b>: 111 Chop House</li>
+                <li><b>Program Status</b>: Completed</li>
+              </ul>
+            </div>
+        </mat-card>
+        <mat-card class="first-wrap line-height mat-card-sd">
+            <div class="col-md-12"><span class="header-text-style">Attendance Summary</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Attendees</b>: 03</li>
+                <li><b>Speaker</b>: 01</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Alexion Employees</b>: 02</li>
+                <li><b>Coordinators</b>: 00</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Total</b>:  06</li>
+              </ul>
+            </div>
+        </mat-card>
+        <mat-card class="second-wrap line-height mat-card-sd speaker-program-list nopadding">
+            <div class="header">
+              <div class="row">
+                  <div class="col-md-12">
+                      <span class="header-text-style">Attendee Details</span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-12">
+                      <hr class="hr-color">
+                    </div>
+        
+                    <div class="col-md-4">
+                      <ul class="pad-lft-zero">
+                        <li><b>Walk-in Attendees</b>: 03</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="pad-lft-zero">
+                        <li><b>Pre-Registered Attendees</b>: 03</li>
+                      </ul>
+                    </div>
+                    <div class="col-md-4">
+                      <ul class="pad-lft-zero">
+                        <li><b>Total</b>: 06</li>
+                      </ul>
+                    </div>
+        
+                    <div class="col-md-12">
+                        <hr class="hr-color">
+                    </div>
+              </div>
+            </div>
+
+            <div class="speaker-program-row">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Name</b>: Michela Aab</li>
+                    <li><b>Specialty</b>: Internal Medicine</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Degree</b>: Doctor of Osteopathy</li>
+                    <li><b>City & State</b>: Fox Worth, TX</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="p-l-0">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                          <label>Email</label>
+                          <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-4">
+                          <label>Address</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2">
+                          <label>Zip</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Phone Number</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="tel" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group" hidden>
+                        <div class="col-md-3">
+                          <label>NPI</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>State of License</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>License Number</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>Affiliation</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3" hidden>
+                          <label>Digital Signature</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="NA">
+                              <mat-option value="NA">
+                                NA
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Paper Sign-in</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Select">
+                                <mat-option value="Select">
+                                  Select
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Status</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Pre-Registered Attendee">
+                                <mat-option value="Pre-Registered Attendee">
+                                    Pre-Registered Attendee
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Attended</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="yes">
+                              <mat-option value="yes">
+                                  Yes
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- Speaker Program Row -->
+            <div class="clearfix"></div>
+
+            <div class="speaker-program-row dark">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Name</b>: Ram Aach</li>
+                    <li><b>Specialty</b>: Cardiology</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Degree</b>: Medical Doctor</li>
+                    <li><b>City & State</b>: Chicago, IL</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="p-l-0">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                          <label>Email</label>
+                          <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-4">
+                          <label>Address</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2">
+                          <label>Zip</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Phone Number</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="tel" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group" hidden>
+                        <div class="col-md-3">
+                          <label>NPI</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>State of License</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>License Number</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>Affiliation</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3" hidden>
+                          <label>Digital Signature</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="NA">
+                              <mat-option value="NA">
+                                NA
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Paper Sign-in</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Select">
+                                <mat-option value="Select">
+                                  Select
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Status</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Pre-Registered Attendee">
+                                <mat-option value="Pre-Registered Attendee">
+                                    Pre-Registered Attendee
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Attended</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="yes">
+                              <mat-option value="yes">
+                                  Yes
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- S Row -->
+            <div class="clearfix"></div>
+            
+            <div class="speaker-program-row">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Name</b>: Jack Aaron</li>
+                    <li><b>Specialty</b>: Internal Medicine</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Degree</b>: Medical Doctor</li>
+                    <li><b>City & State</b>: Schenec Tady, NY</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="p-l-0">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                          <label>Email</label>
+                          <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-4">
+                          <label>Address</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2">
+                          <label>Zip</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Phone Number</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="tel" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group" hidden>
+                        <div class="col-md-3">
+                          <label>NPI</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>State of License</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>License Number</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>Affiliation</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3" hidden>
+                          <label>Digital Signature</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="NA">
+                              <mat-option value="NA">
+                                NA
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Paper Sign-in</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Select">
+                                <mat-option value="Select">
+                                  Select
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Status</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Pre-Registered Attendee">
+                                <mat-option value="Pre-Registered Attendee">
+                                    Pre-Registered Attendee
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Attended</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="yes">
+                              <mat-option value="yes">
+                                  Yes
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- Attendee Row -->
+
+            <div class="clearfix"></div>
+        </mat-card>
+        <mat-card class="second-wrap line-height mat-card-sd speaker-program-list nopadding">
+            <div class="header">
+              <div class="row">
+                  <div class="col-md-12">
+                      <span class="header-text-style">Speaker Details</span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-12">
+                      <hr class="hr-color">
+                    </div>
+        
+                    <div class="col-md-4">
+                      <ul class="pad-lft-zero">
+                        <li><b>Total Speakers</b>: 01</li>
+                      </ul>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <hr class="hr-color">
+                    </div>
+              </div>
+            </div>
+
+            <div class="speaker-program-row">
+              <div class="row">
+                  <div class="col-md-2">
+                    <img src="assets/img/user-profile.png" alt="speaker-img" class="img-circle" width="55">
+                  </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Name</b>:Juan Alejos</li>
+                    <li><b>Specialty</b>: Internal Medicine</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Degree</b>: APN</li>
+                    <li><b>City & State</b>:Teaneck, NJ</li>
+                  </ul>
+                </div>
+                <div class="col-md-2">
+                  <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="p-l-0">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                          <label>Email</label>
+                          <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-4">
+                          <label>Address</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2">
+                          <label>Zip</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Phone Number</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="tel" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group" hidden>
+                        <div class="col-md-3">
+                          <label>NPI</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>State of License</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>License Number</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>Affiliation</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3" hidden>
+                          <label>Digital Signature</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="NA">
+                              <mat-option value="NA">
+                                NA
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Paper Sign-in</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Select">
+                                <mat-option value="Select">
+                                  Select
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Status</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Pre-Registered Attendee">
+                                <mat-option value="Pre-Registered Attendee">
+                                    Pre-Registered Attendee
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Attended</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="yes">
+                              <mat-option value="yes">
+                                  Yes
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- Attendee Row -->
+
+
+            <div class="clearfix"></div>
+        </mat-card>
+        <mat-card class="second-wrap line-height mat-card-sd speaker-program-list nopadding">
+            <div class="header">
+              <div class="row">
+                  <div class="col-md-12">
+                      <span class="header-text-style">Alexion Employee Details</span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-md-12">
+                      <hr class="hr-color">
+                    </div>
+        
+                    <div class="col-md-4">
+                      <ul class="pad-lft-zero">
+                        <li><b>Total Employees</b>: 02</li>
+                      </ul>
+                    </div>
+        
+                    <div class="col-md-12">
+                        <hr class="hr-color">
+                    </div>
+              </div>
+            </div>
+
+            <div class="speaker-program-row">
+              <div class="row">
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Name</b>: Robert Dwayne</li>
+                    <li><b>Specialty</b>: Cardiology</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li><b>Degree</b>: APN</li>
+                    <li><b>City & State</b>: Greensboro, NC</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="p-l-0">
+                    <div class="form-group">
+                        <div class="col-md-3">
+                          <label>Email</label>
+                          <mat-form-field class="example-full-width">
+                            <input type="email" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-4">
+                          <label>Address</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-2">
+                          <label>Zip</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Phone Number</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="tel" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group" hidden>
+                        <div class="col-md-3">
+                          <label>NPI</label>
+                          <mat-form-field class="example-full-width">
+                              <input type="text" matInput placeholder="" value="">
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>State of License</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>License Number</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field></div>
+                        <div class="col-md-3">
+                          <label>Affiliation</label>
+                          <mat-form-field class="example-full-width">                             
+                            <input type="text" matInput placeholder="" value="">                           
+                          </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-3" hidden>
+                          <label>Digital Signature</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="NA">
+                              <mat-option value="NA">
+                                NA
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Paper Sign-in</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Select">
+                                <mat-option value="Select">
+                                  Select
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Status</label>
+                          <mat-form-field>
+                              <mat-select placeholder="" value="Pre-Registered Attendee">
+                                <mat-option value="Pre-Registered Attendee">
+                                    Pre-Registered Attendee
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-md-3">
+                          <label>Attended</label>
+                          <mat-form-field>
+                            <mat-select placeholder="" value="yes">
+                              <mat-option value="yes">
+                                  Yes
+                              </mat-option>
+                            </mat-select>
+                          </mat-form-field>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div><!-- Attendee Row -->
+            <div class="clearfix"></div>
+
+            <div class="speaker-program-row dark">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul class="pad-lft-zero">
+                      <li><b>Name</b>: Louise Albert</li>
+                      <li><b>Specialty</b>: </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="pad-lft-zero">
+                      <li><b>Degree</b>: APN</li>
+                      <li><b>City & State</b>: North Hampton</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="pad-lft-zero">
+                      <li>
+                          <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                      </li>
+                    </ul>
+                  </div>
+  
+                  <div class="p-l-0">
+                      <div class="form-group">
+                          <div class="col-md-3">
+                            <label>Email</label>
+                            <mat-form-field class="example-full-width">
+                              <input type="email" matInput placeholder="" value="">
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-4">
+                            <label>Address</label>
+                            <mat-form-field class="example-full-width">
+                                <input type="text" matInput placeholder="" value="">
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-2">
+                            <label>Zip</label>
+                            <mat-form-field class="example-full-width">
+                                <input type="text" matInput placeholder="" value="">
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-3">
+                            <label>Phone Number</label>
+                            <mat-form-field class="example-full-width">
+                                <input type="tel" matInput placeholder="" value="">
+                            </mat-form-field>
+                          </div>
+                      </div>
+                      <div class="form-group" hidden>
+                          <div class="col-md-3">
+                            <label>NPI</label>
+                            <mat-form-field class="example-full-width">
+                                <input type="text" matInput placeholder="" value="">
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-3">
+                            <label>State of License</label>
+                            <mat-form-field class="example-full-width">                             
+                              <input type="text" matInput placeholder="" value="">                           
+                            </mat-form-field></div>
+                          <div class="col-md-3">
+                            <label>License Number</label>
+                            <mat-form-field class="example-full-width">                             
+                              <input type="text" matInput placeholder="" value="">                           
+                            </mat-form-field></div>
+                          <div class="col-md-3">
+                            <label>Affiliation</label>
+                            <mat-form-field class="example-full-width">                             
+                              <input type="text" matInput placeholder="" value="">                           
+                            </mat-form-field>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-md-3" hidden>
+                            <label>Digital Signature</label>
+                            <mat-form-field>
+                              <mat-select placeholder="" value="NA">
+                                <mat-option value="NA">
+                                  NA
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                          </div>
+                          <div class="col-md-3">
+                            <label>Paper Sign-in</label>
+                            <mat-form-field>
+                                <mat-select placeholder="" value="Select">
+                                  <mat-option value="Select">
+                                    Select
+                                  </mat-option>
+                                </mat-select>
+                              </mat-form-field>
+                          </div>
+                          <div class="col-md-3">
+                            <label>Status</label>
+                            <mat-form-field>
+                                <mat-select placeholder="" value="Pre-Registered Attendee">
+                                  <mat-option value="Pre-Registered Attendee">
+                                      Pre-Registered Attendee
+                                  </mat-option>
+                                </mat-select>
+                              </mat-form-field>
+                          </div>
+                          <div class="col-md-3">
+                            <label>Attended</label>
+                            <mat-form-field>
+                              <mat-select placeholder="" value="yes">
+                                <mat-option value="yes">
+                                    Yes
+                                </mat-option>
+                              </mat-select>
+                            </mat-form-field>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div><!-- Attendee Row -->
+
+            <div class="clearfix"></div>
+        </mat-card>
+        <div class="form-group rec-speaker-program-btns">
+            <div class="col-md-12">
+              <!-- <button mat-button class="fnt-weigth">Reset</button> -->
+              <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Save & Next</button>
+            </div>
+          </div>  
+    </mat-step>
+    
+    <mat-step>
+        <mat-card class="first-wrap line-height mat-card-sd">
+            <ng-template matStepLabel>Expense Summary</ng-template>
+            <div class="col-md-12"><span class="header-text-style">Event Information</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>ID</b>: 2858</li>
+                <li><b>Product</b>: Neuroscience-MG</li>
+                <li><b>Program Date</b>: 9/26/2019</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Program Type</b>: Live</li>
+                <li><b>Speaker</b>: Juan Alejos</li>
+                <li><b>Territory</b>: TM - Austin, TX</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Venue</b>: 111 Chop House</li>
+                <li><b>Program Status</b>: Completed</li>
+              </ul>
+            </div>
+        </mat-card>
+        <mat-card class="first-wrap line-height mat-card-sd card-table">
+          <div class="col-md-9"><span class="header-text-style">Speaker Expenses: Jack Aaron</span></div>
+          <div class="col-md-3">
+            <button class="btn view-details-custom fnt-weigth pull-right"> Add Expense </button>
+          </div>
+          <div class="clearfix"></div>
+          <div class="col-md-12">
+            <hr class="hr-color">
+          </div>
+          <div class="cust-mat-table no-border">
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+                    <ng-container matColumnDef="Expense Type">
+                      <th mat-header-cell *matHeaderCellDef> <span>Expense Type </span></th>
+                      <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length" class="border-radius-left"> <span>{{element.type}}</span> </td>
+                    </ng-container>
+                  
+                    <!-- Name Column -->
+                    <ng-container matColumnDef="Alexion Submitted">
+                      <th mat-header-cell *matHeaderCellDef> <span>Alexion Submitted</span> </th>
+                      <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"> 
+                          <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                              <input type="text" matInput placeholder="" [value]="element.alexon" disabled>
+                          </mat-form-field>
+                          <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                            {{element.alexon}}
+                          </div>
+                      </td>
+                    </ng-container>
+                  
+                    <!-- Weight Column -->
+                    <ng-container matColumnDef="Speaker Submitted">
+                      <th mat-header-cell *matHeaderCellDef> <span>Speaker Submitted</span> </th>
+                      <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length">
+                          <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                              <input type="text" matInput placeholder="" [value]="element.speaker" disabled>
+                          </mat-form-field>
+                          <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                            {{element.speaker}}
+                          </div>
+                      </td>
+                    </ng-container>
+                  
+                    <!-- Symbol Column -->
+                    <ng-container matColumnDef="Alexion and Speaker Total">
+                      <th mat-header-cell *matHeaderCellDef> <span>Alexion and Speaker Total</span> </th>
+                      <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"> 
+                          <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                              <input type="text" matInput placeholder="" [value]="element.total" disabled>
+                          </mat-form-field>
+                          <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                            {{element.total}}
+                          </div>
+                      </td>
+                    </ng-container>
+
+                    <ng-container matColumnDef="Details">
+                        <th mat-header-cell *matHeaderCellDef> <span>Details</span> </th>
+                        <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"  class="border-radius-right clr-blue-expense">  
+                            <button mat-icon-button *ngIf="(i+1) != dataSource.length" (click)="openDialog()">
+                              <mat-icon>Add Expense</mat-icon>
+                            </button>
+                        </td>
+                    </ng-container>
+                  
+                    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                  </table>
+        </div>
+        
+        
+        
+      </mat-card>
+      <div class="form-group rec-speaker-program-btns">
+        <div class="col-md-12">
+          <button mat-button class="primary-custom" (click)="stepperPrev(stepper)">Prev</button>
+          <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Next</button>
+        </div>
+      </div>
+    </mat-step>
+
+    <mat-step>
+        <mat-card class="first-wrap line-height mat-card-sd">
+            <ng-template matStepLabel>Program Documents</ng-template>
+            <div class="col-md-12"><span class="header-text-style">Event Information</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>ID</b>: 2858</li>
+                <li><b>Product</b>: Neuroscience-MG</li>
+                <li><b>Program Date</b>: 9/26/2019</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Program Type</b>: Live</li>
+                <li><b>Speaker</b>: Juan Alejos</li>
+                <li><b>Territory</b>: TM - Austin, TX</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Venue</b>: 111 Chop House</li>
+                <li><b>Program Status</b>: Completed</li>
+              </ul>
+            </div>
+        </mat-card>
+
+        <mat-card class="first-wrap line-height mat-card-sd action-card">
+            <div class="col-md-12"><span class="header-text-style">Uploaded Document List</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="card-link">
+              <a>Program Sign In Sheet</a>
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>File Name</b>: 1064_Sign In Sheet.pdf</li>
+                <li><b>Topic</b>: Program Sign In Sheet</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-6">
+              <ul class="pad-lft-zero">
+                <li><b>Program Type</b>: Live</li>
+                <li><b>Uploaded On</b>: 02/10/2019 05:58 PM</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-2">
+              <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-save"></span> Download</button>
+                    </li>
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-trash"></span> Delete</button>
+                    </li>
+                  </ul>
+            </div>
+        </mat-card>
+
+        <div class="form-group rec-speaker-program-btns">
+            <div class="col-md-12">
+              <!-- <button mat-button class="fnt-weigth">Reset</button> -->
+              <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Prev
+              </button>
+              <button mat-button class="primary-custom" (click)="uploadFileModal()">Upload
+              </button>
+              <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Save & Next
+              </button>
+            </div>
+        </div> 
+
+
+    </mat-step>
+
+    <mat-step>
+        <mat-card class="first-wrap line-height mat-card-sd">
+            <ng-template matStepLabel>Submit Program</ng-template>
+            <div class="col-md-12"><span class="header-text-style">Event Information</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>ID</b>: 2858</li>
+                <li><b>Product</b>: Neuroscience-MG</li>
+                <li><b>Program Date</b>: 9/26/2019</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Program Type</b>: Live</li>
+                <li><b>Speaker</b>: Juan Alejos</li>
+                <li><b>Territory</b>: TM - Austin, TX</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Venue</b>: 111 Chop House</li>
+                <li><b>Program Status</b>: Completed</li>
+              </ul>
+            </div>
+        </mat-card>
+
+        <mat-card class="first-wrap line-height mat-card-sd card-table">
+            <div class="col-md-9"><span class="header-text-style">Speaker Expenses: Jack Aaron</span></div>
+            <div class="col-md-3">
+              <button class="btn view-details-custom fnt-weigth pull-right"> Add Expense </button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="cust-mat-table no-border nopadding">
+                <div class="table-title">
+                    <h3>Speaker Jack Aaron Expenses</h3>
+                </div>
+                <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    
+                        <ng-container matColumnDef="Expense Type">
+                          <th mat-header-cell *matHeaderCellDef> <span>Expense Type </span></th>
+                          <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length" class="border-radius-left"> <span>{{element.type}}</span> </td>
+                        </ng-container>
+                      
+                        <!-- Name Column -->
+                        <ng-container matColumnDef="Alexion Submitted">
+                          <th mat-header-cell *matHeaderCellDef> <span>PxG Group Submitted</span> </th>
+                          <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"> 
+                              <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                                  <input type="text" matInput placeholder="" [value]="element.alexon" disabled>
+                              </mat-form-field>
+                              <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                                {{element.alexon}}
+                              </div>
+                          </td>
+                        </ng-container>
+                      
+                        <!-- Weight Column -->
+                        <ng-container matColumnDef="Speaker Submitted">
+                          <th mat-header-cell *matHeaderCellDef> <span>Speaker Submitted</span> </th>
+                          <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length">
+                              <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                                  <input type="text" matInput placeholder="" [value]="element.speaker" disabled>
+                              </mat-form-field>
+                              <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                                {{element.speaker}}
+                              </div>
+                          </td>
+                        </ng-container>
+                      
+                        <!-- Symbol Column -->
+                        <ng-container matColumnDef="Alexion and Speaker Total">
+                          <th mat-header-cell *matHeaderCellDef> <span>PxG Group and Speaker Total</span> </th>
+                          <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"> 
+                              <mat-form-field class="example-full-width" *ngIf="(i+1) != dataSource.length">
+                                  <input type="text" matInput placeholder="" [value]="element.total" disabled>
+                              </mat-form-field>
+                              <div *ngIf="(i+1) == dataSource.length" class="text-value">
+                                {{element.total}}
+                              </div>
+                          </td>
+                        </ng-container>
+    
+                        <ng-container matColumnDef="Details">
+                            <th mat-header-cell *matHeaderCellDef> <span>Details</span> </th>
+                            <td mat-cell *matCellDef="let element; let i = index;" [class.final-td]="(i+1) == dataSource.length"  class="border-radius-right clr-blue-expense">  
+                                <button mat-icon-button *ngIf="(i+1) != dataSource.length">
+                                  <mat-icon>Add Expense</mat-icon>
+                                </button>
+                            </td>
+                        </ng-container>
+                      
+                        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                      </table>
+            </div>
+        </mat-card>
+
+        <mat-card class="first-wrap line-height mat-card-sd action-card">
+            <div class="col-md-12"><span class="header-text-style">Program Documents</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+            <div class="card-link">
+              <a>List of Program Documents Uploaded</a>
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Document Type</b>: Program Sign Sheet</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-6">
+              <ul class="pad-lft-zero">
+                <li><b>Date Uploaded</b>: 02/10/2019</li>
+              </ul>
+            </div>
+      
+            <div class="col-md-2">
+              <ul class="pad-lft-zero">
+                    <li>
+                        <button class="btn vanue-delete-btn btn-transparent"><span  class="glyphicon glyphicon-save"></span> Download</button>
+                    </li>
+                  </ul>
+            </div>
+        </mat-card>
+        <mat-card class="first-wrap">
+            <div class="col-md-12"><span class="header-text-style">Summary of Attendees</span></div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color">
+            </div>
+          <div class="AD-training-material-wrapper">
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Total Attendees</b>: 06</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul class="pad-lft-zero">
+                <li><b>Average Cost for Attendees</b>: $00</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+            <div class="col-md-12">
+              <hr class="hr-color no-mar">
+            </div>
+          <div class="col-md-12 AD-training-material-wrapper">
+            <div class="row custome-row">
+              <div class="col-md-12 even-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                  </ul>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+              </div><!-- even-content-panel End-->
+              <div class="col-md-12 odd-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- odd-content-panel End-->
+              <div class="col-md-12 even-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- even-content-panel End-->
+              <div class="clearfix"></div>
+              <div class="col-md-12 odd-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- odd-content-panel End-->
+              <div class="col-md-12 even-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- even-content-panel End-->
+              <div class="col-md-12 odd-content-panel no-pad">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul>
+                      <li><b>Name</b>: Michela Aab</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 zero-bottom-mr">
+                    <ul>
+                      <li><b>City & State</b>: Fort Worth, TX</li>
+                    </ul>
+                  </div>
+                </div>
+              </div><!-- odd-content-panel End-->
+            </div>
+          </div><!-- AD-training-material-wrapper Close -->
+        </mat-card>
+
+        <div class="form-group rec-speaker-program-btns">
+            <div class="col-md-12">
+              <!-- <button mat-button class="fnt-weigth">Reset</button> -->
+              <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Prev
+              </button>
+              <button mat-button class="primary-custom" (click)="stepperNext(stepper)">Submit
+              </button>
+            </div>
+        </div>
+
+    </mat-step>
+</mat-horizontal-stepper>
